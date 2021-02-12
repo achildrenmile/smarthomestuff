@@ -1,7 +1,6 @@
-char* ssid = ""; //Wi-Fi AP Name
-char* password = ""; //Wi-Fi Password
-char* mqtt_server = ""; //MQTT Server IP
-char* mqtt_name = "Rain Sensor 1"; //MQTT device name
+const char* mqtt_server = "";
+const char* ssid = "";
+const char* password = "";
+const char* mqtt_name = "RFID 2";
 
-char* mqtt_subtopic = "/rainsensor1/alarm"; //MQTT topic for communication
-char* mqtt_maintopic = "homeassistant";
+const char* mqtt_topic="homeassistant/rfid2";
