@@ -16,8 +16,6 @@ int value = 0;
 
 SSD1306 display(0x3c, D2, D1); //NodeMCU
 
-#define D1mini 1
-
 void setup() {
   
   Serial.begin(9600);
