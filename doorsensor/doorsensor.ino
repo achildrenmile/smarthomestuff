@@ -9,7 +9,7 @@ WiFiClient mainESP;
 PubSubClient MQTT(mainESP);
 
 
-int switchPin = 16;  //set the GPIO which you will connect the PIR sensor
+int switchPin = 16;
 
 int reedswitch=0;
 
